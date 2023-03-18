@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+body .container .tittle {
+  margin-bottom: 15px;
+}
+body .container .tittle-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #006837;
+}
+@media only screen and (max-width: 520px) {
+  body .container .tittle-text {
+    font-size: 24px;
+  }
+}
+body .container .newPwClaim {
+  width: 520px;
+  padding: 20px;
+  background-color: #f9c582;
+  color: #467745;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px;
+}
+@media only screen and (max-width: 520px) {
+  body .container .newPwClaim {
+    margin: 0;
+  }
+}
+body .container .newPwClaim p {
+  margin-bottom: 10px;
+}
+body .container .newPwClaim .question {
+  font-style: italic;
+}
+body .container .newPwClaim .input {
+  width: 100%;
+  height: 60px;
+  border: 0px solid;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: medium;
+  color: #98a991;
+}
+body .gomb .my-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  width: 120px;
+  height: 120px;
+  background-color: #f9c582;
+  color: #006837;
+  border-radius: 60px; /* half of the width and height */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 120px;
+}/*# sourceMappingURL=style.css.map */
